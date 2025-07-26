@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/personalportofolio/static/css/main.dca0ecd4.css",
+    "main.js": "/personalportofolio/static/js/main.aa7a4577.js",
+    "static/js/488.5d118947.chunk.js": "/personalportofolio/static/js/488.5d118947.chunk.js",
+    "static/media/profile.png": "/personalportofolio/static/media/profile.2206b3ab8ce44418ccf4.png",
+    "static/media/aboutme.png": "/personalportofolio/static/media/aboutme.754fb00cdfdb82907319.png",
+    "static/media/miaamalia.pdf": "/personalportofolio/static/media/miaamalia.e00304f9566b1aa2d2c8.pdf",
+    "index.html": "/personalportofolio/index.html",
+    "main.dca0ecd4.css.map": "/personalportofolio/static/css/main.dca0ecd4.css.map",
+    "main.aa7a4577.js.map": "/personalportofolio/static/js/main.aa7a4577.js.map",
+    "488.5d118947.chunk.js.map": "/personalportofolio/static/js/488.5d118947.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dca0ecd4.css",
+    "static/js/main.aa7a4577.js"
+  ]
+}
