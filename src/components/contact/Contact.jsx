@@ -6,11 +6,23 @@ const Contact = () => {
     const form = useRef();
 
     const sendEmail = (e) => {
-        e.preventDefault();
+    e.preventDefault();
 
-        emailjs.sendForm("service_2b04ubn", "template_2464m88", form.current, "Aj8Nhs0JFmvaUxhss")
-        e.target.reset()
-    };
+    emailjs.sendForm("service_2b04ubn", "template_2464m88", form.current, "Aj8Nhs0JFmvaUxhss")
+        .then((result) => {
+            alert("SUCCESS!", result.text);
+        })
+        .catch((error) => {
+            console.log("Full error object:", error);
+                if (error?.text) {
+            alert("Error: " + error.text);
+                } else {
+            alert("Terjadi kesalahan: " + JSON.stringify(error));
+        }
+});
+
+    e.target.reset();
+};
 
     return (
         <section className="contact section" id="contact">
@@ -83,7 +95,7 @@ const Contact = () => {
                         </div>
 
                         <div className="contact__form-div contact__form-area">
-                            <label className="contact__form-tag">Project</label>
+                            <label className="contact__form-tag">Message</label>
                             <textarea
                                 name="project"
                                 cols="30"

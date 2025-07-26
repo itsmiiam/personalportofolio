@@ -31,7 +31,7 @@ const Header = () => {
         <header className="header">
             <nav className="nav container">
                 <a href="index.html" className="nav__logo">
-                    Mia
+                    My Portofolio
                 </a>
 
                 <div className={Toggle ? "nav__menu show-menu" :
